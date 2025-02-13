@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stylish Cuts - Your Local Hair Salon</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+      integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/minireset.css/0.0.2/minireset.min.css"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- header -->
+     <!-- header -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">Stylish Cuts</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="./services.html"
+                id="servicesDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                <li>
+                  <a class="dropdown-item" href="./services.html#haircuts"
+                    >Haircuts</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./services.html#coloring"
+                    >Coloring</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./services.html#styling"
+                    >Styling</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="./gallery.html"
+                id="galleryDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Gallery
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="galleryDropdown">
+                <li>
+                  <a class="dropdown-item" href="./gallery.html#haircuts"
+                    >Haircuts</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./gallery.html#coloring"
+                    >Coloring</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./gallery.html#styling"
+                    >Styling</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="./booking.html">Book Now</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="./faq.html">FAQ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+
+    <header class="hero">
+      <div class="container">
+        <h1>Welcome to Stylish Cuts</h1>
+        <p>Experience the best haircuts and styling in town</p>
+        <a href="booking.html" class="btn btn-primary btn-lg">Book Now</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="features">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="featureCards">
+                <i class="fa-regular fa-face-grin-hearts featureIcon"></i>
+                <h2 class="mdHeading">Expert Stylists</h2>
+                <p class="mainText">
+                  Our team of experienced stylists will give you the perfect
+                  look.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="featureCards">
+                <i class="fa-solid fa-scissors featureIcon"></i>
+                <h2 class="mdHeading">Modern Techniques</h2>
+                <p class="mainText">
+                  We use the latest techniques and products for the best
+                  results.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="featureCards">
+                <i class="fa-solid fa-cloud featureIcon"></i>
+                <h2 class="mdHeading">Comfortable Atmosphere</h2>
+                <p class="mainText">
+                  Relax and enjoy your time in our welcoming salon.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footerSection bg-dark text-white py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Stylish Cuts</h3>
+            <p>123 Main Street, Anytown, USA</p>
+            <p>Phone: (555) 123-4567</p>
+          </div>
+          <div class="col-md-6">
+            <h3>Hours</h3>
+            <p>Monday - Friday: 9am - 8pm</p>
+            <p>Saturday: 9am - 6pm</p>
+            <p>Sunday: Closed</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"
+      integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>
